@@ -107,7 +107,10 @@
     <Content Include="AddToCart.aspx" />
     <Content Include="AdRotator.aspx" />
     <Content Include="BinaryFiles.aspx" />
+    <Content Include="BulletedList.aspx" />
+    <Content Include="CascadingDropdownlist.aspx" />
     <Content Include="Charts.aspx" />
+    <Content Include="CheckboxList.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -129,6 +132,7 @@
     <Content Include="Customers.aspx" />
     <Content Include="DataControls.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Email.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Images\IMG1.jpg" />
@@ -137,7 +141,7 @@
     <Content Include="Images\img4.jpg" />
     <Content Include="Images\img5.jpg" />
     <Content Include="Images\img6.jpg" />
-    <Content Include="LandingPage.aspx" />
+    <Content Include="Multiview.aspx" />
     <Content Include="Panels.aspx" />
     <Content Include="Products.aspx" />
     <Content Include="Registration.aspx" />
@@ -169,7 +173,11 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Themes.aspx" />
     <Content Include="XML\adrotator.xml" />
+    <Content Include="App_Themes\default\textbox.skin" />
+    <Content Include="App_Themes\default\button.skin" />
+    <Content Include="App_Themes\default\calendar.skin" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -235,12 +243,33 @@
     <Compile Include="BinaryFiles.aspx.designer.cs">
       <DependentUpon>BinaryFiles.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BulletedList.aspx.cs">
+      <DependentUpon>BulletedList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BulletedList.aspx.designer.cs">
+      <DependentUpon>BulletedList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CascadingDropdownlist.aspx.cs">
+      <DependentUpon>CascadingDropdownlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CascadingDropdownlist.aspx.designer.cs">
+      <DependentUpon>CascadingDropdownlist.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Charts.aspx.cs">
       <DependentUpon>Charts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Charts.aspx.designer.cs">
       <DependentUpon>Charts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckboxList.aspx.cs">
+      <DependentUpon>CheckboxList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckboxList.aspx.designer.cs">
+      <DependentUpon>CheckboxList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -270,15 +299,22 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Email.aspx.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Email.aspx.designer.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="LandingPage.aspx.cs">
-      <DependentUpon>LandingPage.aspx</DependentUpon>
+    <Compile Include="Multiview.aspx.cs">
+      <DependentUpon>Multiview.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="LandingPage.aspx.designer.cs">
-      <DependentUpon>LandingPage.aspx</DependentUpon>
+    <Compile Include="Multiview.aspx.designer.cs">
+      <DependentUpon>Multiview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Panels.aspx.cs">
       <DependentUpon>Panels.aspx</DependentUpon>
@@ -322,6 +358,13 @@
     </Compile>
     <Compile Include="StateMgmt.aspx.designer.cs">
       <DependentUpon>StateMgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Themes.aspx.cs">
+      <DependentUpon>Themes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Themes.aspx.designer.cs">
+      <DependentUpon>Themes.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

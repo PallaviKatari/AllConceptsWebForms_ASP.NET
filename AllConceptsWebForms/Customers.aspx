@@ -57,7 +57,7 @@
                 <asp:TextBox ID="txtCountry" runat="server" Width="140" />
             </td>
             <td style="width: 150px">
-                <asp:Button ID="btnAdd" runat="server" Text="Add" OnClick="Insert" />
+                <asp:Button ID="btnAdd" runat="server" Text="Add" OnClick="Insert" EnableTheming="false" />
             </td>
         </tr>
     </table>
